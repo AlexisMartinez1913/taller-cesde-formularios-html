@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <h1>Formularios</h1>
+
+    </nav>
+    <main>
+        <section>
+            <form action="">
+                <label for="intro">Introducción a los controles de formularios</label><br><br>
+                <label for="codigo">Código Del Producto:</label>
+                <input type="text"  name="codigo" id="codigo"><br><br>
+                <label for="name">Nombre Del Producto: </label>
+                <input type="text"  name="name" id="name"><br><br>
+                <label for="cant">Ingrese Cantidad: </label>
+                <input type="number" max="100" min="1" placeholder="Cantidad" name="cant" id="cant"><br><br>
+                <textarea name="descripcion" id="descripcion" cols="30" rows="10" placeholder="Descripción del producto"></textarea><br><br>
+                <label for="email">Ingrese su correo:</label>
+                <input type="email" name="correo" id="correo"><br><br>
+                <label for="contraseña">Ingrese Su Contraseña:</label>
+                <input type="password"  name="contraseña" id="contraseña"><br><br>
+                <label for="cel">Ingrese Su Celular:</label>
+                <input type="tel" name="cel" id="cel"><br><br>
+                <label for="fecha">Fecha</label>
+                <input type="date" name="" id="fecha"><br><br>
+
+                <fieldset>
+                    <legend>Género</legend>
+                    <input type="radio" value="1" name="sexo" id="masculino"> Masculino 
+                    <br>
+                    <input type="radio" value="2" name="sexo" id="femenino"> Femenino 
+                    <br>
+                    <input type="radio" value="3" name="sexo" id="otro"> Otro 
+                    <br>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Matricular Modulos</legend>
+                    <input type="checkbox" value="1" name="" id="" > Introducción a la programación
+                    <br>
+                    <input type="checkbox" value="2" name="" id=""> Metodologías ágiles
+                    <br>
+                    <input type="checkbox" value="3" name="" id=""> Lógica de programación
+                    <br>
+                    <input type="checkbox" value="4" name="" id=""> Otro 
+                    <br>
+                </fieldset>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <hr/>
+        <p>Desarrollador Jhony Alexis Martínez</p>
+        <p>Desarrollo de software</p>
+        <p>Introducción a la programación</p>
+
+    </footer>
+</body>
+
+</html>

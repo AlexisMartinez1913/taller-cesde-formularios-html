@@ -1,0 +1,31 @@
+body{
+    background-color:azure;
+}
+
+.consolas{
+    width: 200px;
+    height: 200px;
+}
+.videos{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: darkblue;
+}
+
+
+th{
+    width: 200px;
+    background-color: royalblue;
+    
+}
+
+td{
+    text-align: center;
+}
+footer{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}

@@ -1,0 +1,24 @@
+th{
+    width: 100px;
+    background-color: green;
+    color: white;
+}
+.en{
+    background-color: green;
+    color: white;
+    text-align: right;
+}
+
+.tabla1{
+    color: green;
+}
+td{
+width: 10px;;
+}
+h1{
+    border: solid 1px;
+    text-align: center;
+    width: 743px;
+    background-color: green;
+    color: white;
+}
